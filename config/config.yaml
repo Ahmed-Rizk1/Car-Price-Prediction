@@ -1,0 +1,26 @@
+app:
+  name: "Car Price Prediction"
+  version: "1.0.0"
+
+paths:
+  data: "data/processed/cleaned_data.csv"
+  model: "models/saved/ml_model.pkl"
+
+model:
+  target_column: "Price"
+  prediction_multiplier: 1200 # Original logic: np.expm1(prediction) * 1200
+
+features:
+  numerical:
+    - "Year"
+    - "Kilometers_Driven"
+    - "Mileage"
+    - "Engine"
+    - "Power"
+  categorical:
+    - "Location"
+    - "Fuel_Type"
+    - "Transmission"
+    - "Owner_Type"
+    - "Brand"
+    - "Model"

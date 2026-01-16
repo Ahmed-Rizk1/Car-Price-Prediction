@@ -1,0 +1,5 @@
+2026-01-16 20:09:44,287 - src.config - INFO - Loaded configuration from config\config.yaml
+2026-01-16 20:09:44,297 - src.model.predictor - INFO - Loading model from models/saved/ml_model.pkl
+2026-01-16 20:09:44,300 - src.model.predictor - ERROR - Error loading model: No module named 'sklearn'
+2026-01-16 20:09:44,303 - src.model.predictor - INFO - Loading model from models/saved/ml_model.pkl
+2026-01-16 20:09:44,305 - src.model.predictor - ERROR - Error loading model: No module named 'sklearn'
